@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Queue;
 
 public class Market implements QueueBehaviour, MarketBehaviour{
-    List <Actor> orders = new ArrayList<>();
-    Queue<Actor> que = new ArrayDeque<>();
+    private List <Actor> orders = new ArrayList<>();
+    private Queue<Actor> que = new ArrayDeque<>();
     @Override
     public void acceptToMarket(Actor actor) {
         orders.add(actor);
