@@ -1,7 +1,7 @@
 package HomeWork1;
 
 public class Coffee extends HotDrink {
-    public int temperature;
+    protected int temperature;
 
     public Coffee(String name, int volume, int cost, int temperature) {
         super(name, volume, cost);

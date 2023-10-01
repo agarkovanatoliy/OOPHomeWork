@@ -5,7 +5,7 @@ import java.util.List;
 
 public class HotDrinksAutomatic implements VendingAutomate{
 
-    public List<HotDrink> newlist = new ArrayList<>();
+    protected List<HotDrink> newlist = new ArrayList<>();
     @Override
     public void initProduct(List<HotDrink> list) {
         this.newlist = list;

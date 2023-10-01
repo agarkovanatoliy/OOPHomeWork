@@ -1,9 +1,9 @@
 package HomeWork1;
 
 public abstract class HotDrink {
-    public String name;
-    public int volume;
-    public int cost;
+    protected String name;
+    protected int volume;
+    protected int cost;
 
     public HotDrink(String name, int volume, int cost) {
         this.name = name;
